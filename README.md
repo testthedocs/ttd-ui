@@ -1,2 +1,0 @@
-# ttd-ui
-Antora UI
