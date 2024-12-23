@@ -1,0 +1,31 @@
+# https://taskfile.dev
+
+version: '3'
+
+silent: true
+
+tasks:
+  default:
+    silent: true
+    desc: List all tasks
+    cmds:
+      - echo "Documentation Tool Kit"
+      - task --list-all
+
+  install:
+    silent: true
+    desc: Run NPM install
+    cmds:
+      - npm install
+
+  preview:
+    silent: true
+    desc: Start preview mode
+    cmds:
+      - npx --offline gulp preview
+
+  bundle:
+    silent: true
+    desc: Bundle the theme
+    cmds:
+      - npx --offline gulp bundle
