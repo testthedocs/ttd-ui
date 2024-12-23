@@ -178,6 +178,7 @@
 .is-current-page > .nav-link,
 .is-current-page > .nav-text {
   font-weight: var(--body-font-weight-bold);
+  color: #6275d7;
 }
 
 .nav-panel-explore {
